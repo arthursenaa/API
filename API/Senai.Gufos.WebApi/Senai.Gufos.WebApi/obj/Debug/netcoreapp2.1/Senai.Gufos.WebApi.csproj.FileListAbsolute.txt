@@ -1,0 +1,14 @@
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\bin\Debug\netcoreapp2.1\Senai.Gufos.WebApi.deps.json
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\bin\Debug\netcoreapp2.1\Senai.Gufos.WebApi.runtimeconfig.json
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\bin\Debug\netcoreapp2.1\Senai.Gufos.WebApi.runtimeconfig.dev.json
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\bin\Debug\netcoreapp2.1\Senai.Gufos.WebApi.dll
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.csprojAssemblyReference.cache
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.csproj.CoreCompileInputs.cache
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.RazorAssemblyInfo.cache
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.RazorAssemblyInfo.cs
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.AssemblyInfoInputs.cache
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.AssemblyInfo.cs
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.RazorTargetAssemblyInfo.cache
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\bin\Debug\netcoreapp2.1\Senai.Gufos.WebApi.pdb
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.dll
+E:\senai\Senai.Gufos.WebApi\Senai.Gufos.WebApi\obj\Debug\netcoreapp2.1\Senai.Gufos.WebApi.pdb
