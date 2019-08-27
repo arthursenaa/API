@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Optus.WebApi.Domains;
 using Senai.Optus.WebApi.Repositories;
@@ -21,12 +22,15 @@ namespace Senai.Optus.WebApi.Controllers
 
 
         // GET: /<controller>/
+        [Authorize]
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(EstilosRepository.Listar());
         }
 
+
+        [Authorize(Roles = "ADMINISTRADOR")]
         [HttpPost]
         public IActionResult Cadastrar(Estilos estilos)
         {
@@ -41,6 +45,8 @@ namespace Senai.Optus.WebApi.Controllers
             }
         }
 
+
+        [Authorize(Roles = "ADMINISTRADOR")]
         [HttpPut]
         public IActionResult Atualizar(Estilos estilos)
         {
@@ -58,6 +64,8 @@ namespace Senai.Optus.WebApi.Controllers
             }
         }
 
+
+        [Authorize(Roles = "ADMINISTRADOR")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
