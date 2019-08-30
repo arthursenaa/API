@@ -1,0 +1,14 @@
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.deps.json
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.runtimeconfig.json
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.runtimeconfig.dev.json
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.dll
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.csprojAssemblyReference.cache
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.csproj.CoreCompileInputs.cache
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorAssemblyInfo.cache
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorAssemblyInfo.cs
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.AssemblyInfoInputs.cache
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.AssemblyInfo.cs
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.RazorTargetAssemblyInfo.cache
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\bin\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.pdb
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.dll
+E:\senai\Senai-DEV2\API\API\AutoPecas\Senai.AutoPecas.WebApi\Senai.AutoPecas.WebApi\obj\Debug\netcoreapp2.1\Senai.AutoPecas.WebApi.pdb

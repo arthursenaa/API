@@ -36,7 +36,7 @@ namespace Senai.Ekips.WebApi.Controllers
                     // senha
                     new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.Senha),
                     // permissao
-                    new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.IdPermissao.ToString()),
+                    new Claim(JwtRegisteredClaimNames.Acr, usuarioBuscado.IdPermissao.ToString()),
                 };
 
                 var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("ekips-chave-autenticacao"));

@@ -25,31 +25,16 @@ namespace Senai.Ekips.WebApi.Controllers
         [HttpGet]
         public IActionResult Listar()
         {
-            //Usuario usuario = new Usuario();
+            var identity = EkipsContext.User.Identity as ClaimsIdentity;
+            if (identity != null)
+            {
+                IEnumerable<Claim> claims = identity.Claims;
+                // or
+                identity.FindFirst("ekips - chave - autenticacao").Value;
 
-            //if (usuario.IdPermissaoNavigation.Equals(1))
-            //{
-                return Ok(FuncionariosRepository.Listar());   
-            //}
-            //else
-            //{
-            //    return Ok(FuncionariosRepository.Listar());
-            //}
+            }
+                return Ok(FuncionariosRepository.Listar());  
         }
-
-        //[Authorize]
-        //[HttpGet]
-        //public IActionResult BuscarPorEmailESenha(LoginViewModel login)
-        //{
-        //    if (Usuario.IdPermissaoNavigation.Equals(1))
-        //    {
-        //        return Ok(FuncionariosRepository.Listar());
-        //    }
-        //
-        //
-        //}
-
-
 
 
         [Authorize(Roles = "ADMINISTRADOR")]
