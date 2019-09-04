@@ -32,3 +32,5 @@ create table Pecas
 )
 
 select * from Pecas
+select * from Fornecedor
+select * from Usuario
