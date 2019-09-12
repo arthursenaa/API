@@ -13,7 +13,10 @@ namespace Senai.AutoPecas.WebApi.Repositories
 
         public void AtualizarFornecedor(Fornecedor fornecedor)
         {
-            throw new NotImplementedException();
+            Fornecedor fornecedorBuscado = ctx.Fornecedor.FirstOrDefault(x => x.IdFornecedor == fornecedor.IdFornecedor);
+            fornecedorBuscado.RazaoSocial = fornecedor.RazaoSocial;
+            ctx.Fornecedor.Update(fornecedorBuscado);
+            ctx.SaveChanges();
         }
 
         public void CadastrarFornecedor(Fornecedor fornecedor)
@@ -24,7 +27,9 @@ namespace Senai.AutoPecas.WebApi.Repositories
 
         public void DeletarFornecedor(int id)
         {
-            throw new NotImplementedException();
+            Fornecedor fornecedor = ctx.Fornecedor.Find(id);
+            ctx.Fornecedor.Remove(fornecedor);
+            ctx.SaveChanges();
         }
     }
 }

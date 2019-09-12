@@ -18,23 +18,14 @@ namespace Senai.AutoPecas.WebApi
         {
             services.AddMvc()
                 .AddJsonOptions
-                (options =>
-                {
+                (
+                options => {
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                     options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
-                }
-                )
+                })
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
-            services.AddCors(options =>
-            {
-                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
-            });
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "AutoPecas API", Version = "v1" });
-            });
-
+            // configurar 
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
@@ -58,8 +49,12 @@ namespace Senai.AutoPecas.WebApi
                     ValidAudience = "AutoPecas.WebApi"
                 };
             });
-        }
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "AutoPeças API", Version = "v1" });
+            });
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -69,13 +64,16 @@ namespace Senai.AutoPecas.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors("CorsPolicy");
+            // colocar em uso
             app.UseAuthentication();
+
             app.UseSwagger();
+
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AutoPecas API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AutoPeças API V1");
             });
+
             app.UseMvc();
         }
     }
