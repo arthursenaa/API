@@ -33,3 +33,27 @@ create table Estoque
 	Tamanho			int Foreign key References Tamanho(IdTamanho),
 	Cor				varchar(255) not null 
 )
+
+create table Empresa 
+(
+	IdEmpresa		int primary key identity,			
+	Nome			varchar(255) not null 
+)
+
+
+create table Usuario 
+(
+	IdUsuario			int primary key identity,	
+	Email				varchar(255) not null unique,
+	Senha				varchar(255) not null ,
+	IdEmpresa			int Foreign key References Empresa (IdEmpresa)
+)
+
+drop table Empresa#Estoque
+
+create table EmpresaEstoque
+(
+	Id					int primary key identity,
+	IdEmpresa			int Foreign key References Empresa (IdEmpresa),
+	IdEstoque			int Foreign key References Estoque (IdEstoque)
+)

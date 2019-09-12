@@ -1,0 +1,14 @@
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\bin\Debug\netcoreapp2.1\T_ShirtStore.WebApi.deps.json
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\bin\Debug\netcoreapp2.1\T_ShirtStore.WebApi.runtimeconfig.json
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\bin\Debug\netcoreapp2.1\T_ShirtStore.WebApi.runtimeconfig.dev.json
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\bin\Debug\netcoreapp2.1\T_ShirtStore.WebApi.dll
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.csprojAssemblyReference.cache
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.csproj.CoreCompileInputs.cache
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.RazorAssemblyInfo.cache
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.RazorAssemblyInfo.cs
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.AssemblyInfoInputs.cache
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.AssemblyInfo.cs
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.RazorTargetAssemblyInfo.cache
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\bin\Debug\netcoreapp2.1\T_ShirtStore.WebApi.pdb
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.dll
+E:\senai\Senai-DEV2\API\API\T_ShirtStore\T_ShirtStore.WebApi\T_ShirtStore.WebApi\obj\Debug\netcoreapp2.1\T_ShirtStore.WebApi.pdb
