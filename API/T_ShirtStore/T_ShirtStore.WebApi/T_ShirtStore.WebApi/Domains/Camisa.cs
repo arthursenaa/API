@@ -12,6 +12,7 @@ namespace T_ShirtStore.WebApi.Domains
 
         public int IdCamisa { get; set; }
         public string Descricao { get; set; }
+        public string Nome { get; set; }
 
         public ICollection<Estoque> Estoque { get; set; }
     }

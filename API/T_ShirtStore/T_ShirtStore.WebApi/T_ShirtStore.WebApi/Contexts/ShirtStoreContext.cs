@@ -17,7 +17,6 @@ namespace T_ShirtStore.WebApi.Domains
 
         public virtual DbSet<Camisa> Camisa { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }
-        public virtual DbSet<EmpresaEstoque> EmpresaEstoque { get; set; }
         public virtual DbSet<Estoque> Estoque { get; set; }
         public virtual DbSet<Perfis> Perfis { get; set; }
         public virtual DbSet<Tamanho> Tamanho { get; set; }
@@ -53,18 +52,7 @@ namespace T_ShirtStore.WebApi.Domains
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<EmpresaEstoque>(entity =>
-            {
-                entity.HasOne(d => d.IdEmpresaNavigation)
-                    .WithMany(p => p.EmpresaEstoque)
-                    .HasForeignKey(d => d.IdEmpresa)
-                    .HasConstraintName("FK__EmpresaEs__IdEmp__656C112C");
-
-                entity.HasOne(d => d.IdEstoqueNavigation)
-                    .WithMany(p => p.EmpresaEstoque)
-                    .HasForeignKey(d => d.IdEstoque)
-                    .HasConstraintName("FK__EmpresaEs__IdEst__66603565");
-            });
+            
 
             modelBuilder.Entity<Estoque>(entity =>
             {
