@@ -6,13 +6,13 @@ using T_ShirtStore.WebApi.Domains;
 
 namespace T_ShirtStore.WebApi.Interface
 {
-    interface ICamisaRepository
+    interface IUsuarioRepository
     {
-        List<Camisa> Listar();
-        void Cadastrar(Camisa camisa);
-        void Atualizar(Camisa camisa);
+
+        List<Usuario> Listar();
+        void CadastrarUsuario(Usuario user);
+        void Atualizar(Usuario user);
         void Deletar(int id);
-        List<Tamanho> ListarTamanho();
 
     }
 }

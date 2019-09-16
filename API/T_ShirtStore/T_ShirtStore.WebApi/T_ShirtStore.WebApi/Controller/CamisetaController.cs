@@ -18,14 +18,14 @@ namespace T_ShirtStore.WebApi.Controller
     {
         CamisetaRepository CamisetaRepository = new CamisetaRepository();
 
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(CamisetaRepository.Listar());
         }
 
-        //[Authorize(Roles = "1")]
+        [Authorize(Roles = "1")]
         [HttpPut]
         public IActionResult Atualizar(Camisa camisa)
         {
@@ -44,7 +44,7 @@ namespace T_ShirtStore.WebApi.Controller
             }
         }
 
-        //[Authorize(Roles = "1")]
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Cadastrar(Camisa camisa)
         {
@@ -55,17 +55,24 @@ namespace T_ShirtStore.WebApi.Controller
             }
             catch (Exception ex)
             {
+                    
 
                 return BadRequest(new { mensagem = "Erro ao Cadastrar. Aguarde um momento. " + ex.Message });
             }
         }
 
-        //[Authorize(Roles = "1")]
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
             CamisetaRepository.Deletar(id);
             return Ok();
+        }
+
+        [HttpGet("Tamanho")]
+        public IActionResult ListarTamanho()
+        {
+            return Ok(CamisetaRepository.ListarTamanho());
         }
     }
 }

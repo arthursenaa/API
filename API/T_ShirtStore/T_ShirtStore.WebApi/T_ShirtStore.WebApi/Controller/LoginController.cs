@@ -40,9 +40,11 @@ namespace T_ShirtStore.WebApi.Controller
                 var claims = new[]
                 {
                     new Claim(JwtRegisteredClaimNames.Email, Usuarios.Email),
-                    new Claim("chave", "valor"),
+                    new Claim("chave", "valor"), 
                     new Claim(JwtRegisteredClaimNames.Jti, Usuarios.IdUsuario.ToString()),
                     new Claim(ClaimTypes.Role, Usuarios.IdPerfil.ToString()),
+                    new Claim(JwtRegisteredClaimNames.Typ, Usuarios.IdEmpresa.ToString()),
+
                 };
 
                 var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("ShirtStore-chave-autenticacao"));

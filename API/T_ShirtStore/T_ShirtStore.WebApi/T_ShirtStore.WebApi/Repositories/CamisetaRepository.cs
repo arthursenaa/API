@@ -16,7 +16,7 @@ namespace T_ShirtStore.WebApi.Repositories
         public void Atualizar(Camisa camisa)
         {
             Camisa e = ctx.Camisa.FirstOrDefault(x => x.IdCamisa == camisa.IdCamisa);
-            e.Nome = camisa.Nome;
+            e.Descricao = camisa.Descricao;
             ctx.Camisa.Update(e);
             ctx.SaveChanges();
         }
@@ -36,7 +36,12 @@ namespace T_ShirtStore.WebApi.Repositories
 
         public List<Camisa> Listar()
         {
-            return ctx.Camisa.ToList();
+            return ctx.Camisa.Include(x => x.Estoque).ToList();
+        }
+
+        public List<Tamanho> ListarTamanho()
+        {
+            return ctx.Tamanho.ToList();
         }
     }
 }
